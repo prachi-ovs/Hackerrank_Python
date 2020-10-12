@@ -6,7 +6,7 @@ def extractElements(permutation, n):
     extracted_perms = [i for i in permutation if sum(i) != n]
     print("The permutations with sum less than" ,n, "are",extracted_perms)
 
-if __name__ == '__main__':
+if __name__ == '__main__': #this is the main func
     x = int(input("Enter a number: "))
     y = int(input("Enter a number: "))
     z = int(input("Enter a number: "))
