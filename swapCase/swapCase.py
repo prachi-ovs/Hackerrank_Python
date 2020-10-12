@@ -7,7 +7,7 @@ def swap_case(s):
         # Checking for uppercase letter and converting to lowercase.
         elif a.islower():
             newstring += (a.upper())
-        # Checking for whitespace letter and adding it to the new string
+        # Checking for whitespace, numeric or non alphanumeric letter and adding it to the new string
         elif a.isspace() or a.isnumeric() or not (a.isalnum()):
             newstring += a
 
