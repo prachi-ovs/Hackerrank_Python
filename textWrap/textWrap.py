@@ -1,8 +1,4 @@
-import textwrap
-
-
 def wrap(s, width):
-    # for i in range(len(s)):
     wordSlice = []
     while s:
         wordSlice.append(s[0:width])
